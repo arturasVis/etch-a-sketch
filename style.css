@@ -1,0 +1,32 @@
+*{
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap:50px;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.sketch_board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    max-width: 40vw;
+    height: 40vw;
+    max-height: 40vw;
+    height: auto;
+    border: 1px solid black;
+}
+.row{
+    display: flex;
+}
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
